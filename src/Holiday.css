@@ -1,0 +1,102 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.holiday-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.label-text {
+    margin-bottom: 10px;
+}
+
+.css-13cymwt-control {
+    border-radius: 50px !important;
+    background-color: rgba(0, 0, 0, .5) !important;
+    height: 45px;
+    padding: 0 10px;
+}
+
+.css-t3ipsp-control {
+    border-radius: 50px !important;
+    background-color: rgba(0, 0, 0, .7) !important;
+}
+
+#react-select-11-listbox,
+#react-select-13-listbox,
+#react-select-15-listbox,
+#react-select-17-listbox {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+.css-116bipr-Input[data-value=""]{
+    color: #fff !important;
+}
+.css-1dimb5e-singleValue {
+    color: #fff !important;
+}
+
+input[type="number"],
+select {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.form-btn {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #2f0032;
+    border: 1px solid #2f0032;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: all 0.2s ease 0s;
+    height: 45px;
+    width: 100%;
+}
+
+.form-btn:hover {
+    background-color: #2f0032;
+    color: #fff;
+    transition: all 0.2s ease 0s;
+    border: 1px solid #ffffff;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    text-align: end;
+}
+
+.text__title {
+    font-size: 80px;
+    color: #fff;
+    line-height: 90px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.text__sub-title {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 200;
+}

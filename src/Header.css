@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo-header {
+    font-family: 'Kaushan Script', cursive !important;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+nav{
+    top: 8px;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language button {
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.2s ease 0s;
+}
+
+.language button:hover {
+    font-weight: 700;
+    transition: all 0.2s ease 0s;
+}
+
+.link-container a {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+.link-container a.link2:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent, #fff);
+    transition: left 0.5s linear;
+}
+
+.link-container a.link2:hover:before {
+    background: linear-gradient(270deg, #fff, transparent);
+    left: 100%;
+}
+
+.language hr {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
